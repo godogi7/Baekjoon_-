@@ -1,5 +1,4 @@
-a=[]
+a= set()
 for i in range(10):
-  a.append(int(input())%42)
-a = set(a)
-print(len(list(a)))
+  a.add(int(input())%42)
+print(len(a))
