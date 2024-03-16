@@ -35,8 +35,8 @@ for num in N:
 sum = num_count[6]+num_count[9]
 #print(f"sum={sum}")
 # 6과 9가 짝수일경우 그대로 절반만 반환, 아니면 1 더한 값 반환
+# 나누기 나머지는 %임. 외워라 좀 ㅋㅋ
 avg = sum//2 if sum%2 == 0 else sum//2+1
-#print(sum//2, sum/2)
 #print(avg)
 num_count[6]=avg
 num_count[9]=avg
