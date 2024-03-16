@@ -1,11 +1,15 @@
 # [Bronze II] 숫자의 개수 - 2577 
-# 문제 풀면서 막혔던 부분
-## 1. 입력시 정수형 변환 안 한 것 -> d = a*b*c 연산 안 됐던 문제
+## ❌ 문제 풀면서 막혔던 부분
+### 1. 입력시 정수형 변환 안 한 것 -> d = a*b*c 연산 안 됐던 문제
 a = input()
 b = input()
 c = input()
 d = a*b*c
-
+###  ✅ 정수형입력
+>a = int(input())
+b =int(input())
+c = int(input())
+d = a*b*c
 
 [문제 링크](https://www.acmicpc.net/problem/2577) 
 
