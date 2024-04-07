@@ -1,5 +1,7 @@
 # [Silver V] 뒤집기 - 1439 
 
+# 이 문제의 핵심은 "바뀌는 구간"임
+
 [문제 링크](https://www.acmicpc.net/problem/1439) 
 
 ### 성능 요약
